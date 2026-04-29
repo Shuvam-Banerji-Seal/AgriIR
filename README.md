@@ -7,6 +7,9 @@
     <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.10+-3776ab.svg" alt="Python"></a>
     <a href="https://ollama.ai"><img src="https://img.shields.io/badge/LLM-Ollama-white.svg" alt="Ollama"></a>
     <a href="https://github.com/facebookresearch/faiss"><img src="https://img.shields.io/badge/vector--db-FAISS-orange.svg" alt="FAISS"></a>
+    <a href="https://huggingface.co/datasets/ShuvBan/AgriIR_dataset"><img src="https://img.shields.io/badge/Dataset-HuggingFace-yellow?style=flat" alt="HuggingFace Dataset"></a>
+    <a href="https://doi.org/10.1007/978-3-032-21324-2_37"><img src="https://img.shields.io/badge/DOI-Springer-green?style=flat" alt="DOI"></a>
+    <a href="https://arxiv.org/abs/2604.16353"><img src="https://img.shields.io/badge/arXiv-2604.16353-red?style=flat" alt="arXiv"></a>
   </p>
   <p align="center">
     <a href="https://ecir2026.eu/calls/call-for-ir-for-good-papers"><img src="https://img.shields.io/badge/ECIR%202026-IR%20for%20Good%20✓-brightgreen.svg" alt="ECIR 2026"></a>
@@ -106,6 +109,54 @@ graph LR
 | 4 | Enhancement | Domain agent keyword injection |
 | 5 | Synthesis | Generate answer (configurable model) |
 | 6 | Citation | Insert sources where similarity ≥ 0.75 |
+
+<br/>
+
+## Dataset
+
+The AgriIR dataset containing 15,247 agricultural knowledge entries is available on HuggingFace:
+
+[![HuggingFace](https://img.shields.io/badge/Dataset-HuggingFace-yellow?style=flat-square)](https://huggingface.co/datasets/ShuvBan/AgriIR_dataset)
+
+- **Direct Link**: https://huggingface.co/datasets/ShuvBan/AgriIR_dataset
+- **Format**: JSONL (JSON Lines)
+- **Size**: ~1.9GB (compressed ~678MB)
+- **Entries**: 15,247 curated agricultural knowledge entries
+
+## Citation
+
+If you use AgriIR, please cite our paper. The Springer/ECMIR version is the official peer-reviewed publication.
+
+### Springer/Conference Citation (Recommended for academic publications)
+
+```bibtex
+@InProceedings{10.1007/978-3-032-21324-2_37,
+  author="Banerji Seal, Shuvam and Poddar, Aheli and Mishra, Alok and Roy, Dwaipayan",
+  editor="Campos, Ricardo and Jatowt, Adam and Lan, Yanyan and Aliannejadi, Mohammad and Bauer, Christine and MacAvaney, Sean and Anand, Avishek and Ren, Zhaochun and Verberne, Suzan and Bai, Nan and Mansoury, Masoud",
+  title="AgriIR: A Scalable Framework for Domain-Specific Knowledge Retrieval",
+  booktitle="Advances in Information Retrieval",
+  year="2026",
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="489--504",
+  doi={10.1007/978-3-032-21324-2_37},
+  isbn="978-3-032-21324-2"
+}
+```
+
+### arXiv Citation
+
+```bibtex
+@misc{BanerjiSeal2026AgriIR,
+  title={AgriIR: A Scalable Framework for Domain-Specific Knowledge Retrieval},
+  author={Shuvam Banerji Seal and Aheli Poddar and Alok Mishra and Dwaipayan Roy},
+  year={2026},
+  eprint={2604.16353},
+  archivePrefix={arXiv},
+  primaryClass={cs.IR},
+  url={https://arxiv.org/abs/2604.16353}
+}
+```
 
 <br/>
 
